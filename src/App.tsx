@@ -1,34 +1,46 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import './App.css'
+import NavBar from './components/NavBar'
+import AboutMe from './components/AboutMe'
+import Introduction from './components/Introduction'
+import Projects from './components/Projects'
+import Socials from './components/Socials'
+import Outro from './components/Outro'
 
-function App() {
-  const [count, setCount] = useState(0)
-
+export default function App() {
   return (
-    <div className="App">
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src="/vite.svg" className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://reactjs.org" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.tsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
+    <div className="h-full text-slate-800 bg-blueish mb-1 static">
+      <NavBar />
+
+        <div className=" grid place-content-center bg-blueish h-screen  ">
+          <Introduction />
+        </div>
+        <div className=" grid place-content-center bg-blueish h-screen" id="aboutMe">
+          <AboutMe />
+        </div>
+        <div className=" grid place-content-center bg-blueish h-max p-64" id="projects">
+          <Projects />
+        </div>
+        {/* <div className=" bg-blueish">
+          <Socials />
+        </div> */}
+
+
+      {/* <Outro /> */}
+
     </div>
   )
 }
 
-export default App
+/*
+<h1>About Me</h1>
+<h1>Projects</h1>
+<h1>Socials</h1>
+<h1>Contact Me</h1>
+*/
+
+/*
+color: white;
+color: #d2d3d0; text? whiteish
+color: #3c3e48; blueish
+color: #ff79c6; pink
+color: #3d3244; purple
+*/
