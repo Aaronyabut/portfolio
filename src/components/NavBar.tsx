@@ -7,7 +7,7 @@ export default function NavBar() {
         <div className="relative flex h-16 items-center justify-between">
             <div className="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start ">
               <a className="flex flex-shrink-0 items-center scroll-smooth" href="#">
-                <img className="hidden h-14 w-auto lg:block" src="/logoPic.png" alt="logo" />
+                <img className="hidden h-14 w-auto lg:block" src="https://raw.githubusercontent.com/Aaronyabut/portfolio/main/logoPic.png" alt="logo" />
               </a>
             </div>
 
