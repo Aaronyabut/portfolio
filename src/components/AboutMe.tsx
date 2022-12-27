@@ -23,7 +23,7 @@ export default function AboutMe () {
             </div>
 
               <img
-                src="itME.jpg"
+                src="https://raw.githubusercontent.com/Aaronyabut/portfolio/main/itME.jpg"
                 className="
                   max-h-96 opacity-100 ease-in duration-700 ml-10
                 "
