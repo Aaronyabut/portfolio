@@ -49,7 +49,7 @@ module.exports = {
         'temp-img': "url(https://source.unsplash.com/collection/905011/1000x1000)",
         'RRR': "url(https://iso.500px.com/wp-content/uploads/2017/07/stock-photo-219973977-960x1000.jpg)",
         'RR': "url(https://user-images.githubusercontent.com/85593147/195161074-67c2a670-1921-49d8-b39b-9b177d456358.gif)",
-        'SDC': "url('./SDC1.png')",
+        'SDC': "url('./systemdesign.png')",
         'FEC': "url(https://user-images.githubusercontent.com/85593147/195180939-94924853-4102-4c5d-a78b-7f81322a840b.gif)",
       },
       boxShadow: {
