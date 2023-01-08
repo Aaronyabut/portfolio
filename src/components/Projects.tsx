@@ -9,7 +9,7 @@ export default function Projects () {
     <div className="flex justify-center mx-14">
       <div className="w-1100 ">
         <div className="w-50">
-          <h1 className="text-5xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-indigo-500/100 to-pinkish">
+          <h1 className="h-14 text-5xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-indigo-500/100 to-pinkish">
           projects
           </h1>
         </div>
