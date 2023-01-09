@@ -8,7 +8,7 @@ const navigation = [
   { name: 'LinkedIn', href: 'https://www.linkedin.com/in/aaron-yabut/', current: false }
 ]
 
-function classNames(...classes) {
+function classNames(...classes:any[]):any {
   return classes.filter(Boolean).join(' ')
 }
 
