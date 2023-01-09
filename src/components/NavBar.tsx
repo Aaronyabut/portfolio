@@ -21,7 +21,7 @@ export default function Example() {
             <div className="relative flex h-16 items-center justify-between">
               <div className="absolute inset-y-0 right-0 flex items-center sm:hidden">
                 {/* Mobile menu button*/}
-                <Disclosure.Button className="inline-flex items-center justify-center rounded-md p-2 text-gray-400 hover:bg-purpleish hover:text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white">
+                <Disclosure.Button className="inline-flex items-center justify-center rounded-md p-2 text-indigo-500/100 hover:bg-purpleish hover:text-indigo-400/100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500/100">
                   <span className="sr-only">Open main menu</span>
                   {open ? (
                     <XMarkIcon className="block h-6 w-6" aria-hidden="true" />
@@ -36,12 +36,12 @@ export default function Example() {
                     <img
                       className="block h-16 w-auto lg:hidden"
                       src="https://raw.githubusercontent.com/Aaronyabut/portfolio/main/logoPic.png"
-                      alt="Your Company"
+                      alt="Aaron Yabut"
                     />
                     <img
                       className="hidden h-16 w-auto lg:block"
                       src="https://raw.githubusercontent.com/Aaronyabut/portfolio/main/logoPic.png"
-                      alt="Your Company"
+                      alt="Aaron Yabut"
                     />
                   </a>
                 </div>
