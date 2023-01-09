@@ -3,9 +3,9 @@ import { Disclosure, Menu, Transition } from '@headlessui/react'
 import { Bars3Icon, BellIcon, XMarkIcon } from '@heroicons/react/24/outline'
 
 const navigation = [
-  { name: 'About Me', href: '#aboutMe', current: false },
-  { name: 'Projects', href: '#projects', current: false },
-  { name: 'LinkedIn', href: 'https://www.linkedin.com/in/aaron-yabut/', current: false }
+  { name: 'About Me', href: '#aboutMe', current: false, target: "" },
+  { name: 'Projects', href: '#projects', current: false, target: "" },
+  { name: 'LinkedIn', href: 'https://www.linkedin.com/in/aaron-yabut/', current: false, target: "_blank" }
 ]
 
 function classNames(...classes:any[]):any {
@@ -21,7 +21,7 @@ export default function Example() {
             <div className="relative flex h-16 items-center justify-between">
               <div className="absolute inset-y-0 right-0 flex items-center sm:hidden">
                 {/* Mobile menu button*/}
-                <Disclosure.Button className="inline-flex items-center justify-center rounded-md p-2 text-gray-400 hover:bg-gray-700 hover:text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white">
+                <Disclosure.Button className="inline-flex items-center justify-center rounded-md p-2 text-gray-400 hover:bg-purpleish hover:text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white">
                   <span className="sr-only">Open main menu</span>
                   {open ? (
                     <XMarkIcon className="block h-6 w-6" aria-hidden="true" />
@@ -59,7 +59,7 @@ export default function Example() {
                           'px-3 py-2 rounded-md text-sm font-medium'
                         )}
                         aria-current={item.current ? 'page' : undefined}
-                        target="_blank"
+                        target={item.target}
                       >
                         {item.name}
                       </a>
@@ -82,7 +82,7 @@ export default function Example() {
                     'block px-3 py-2 rounded-md text-base font-medium'
                   )}
                   aria-current={item.current ? 'page' : undefined}
-                  target="_blank"
+                  target={item.target}
                 >
                   {item.name}
                 </Disclosure.Button>
