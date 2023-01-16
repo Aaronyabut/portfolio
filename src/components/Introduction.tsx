@@ -2,20 +2,20 @@ import React from 'react';
 
 export default function Introduction () {
   return (
-    <div className=" flex justify-center mx-14">
-      <div className="w-150">
+    <div className=" flex justify-center mx-14 ">
+      <div className="w-fit md:w-150">
         <h5 className="text-left text-2xl font-display text-white">
           Hi there, my name is
         </h5>
-        <div className="w-140">
-          <h1 className="text-8xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-indigo-500/100 to-pinkish ">
+        <div className="w-fit md:w-140 ">
+          <h1 className="text-6xl sm:text-8xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-indigo-500/100 to-pinkish ">
             Aaron Yabut.
           </h1>
         </div>
-        <h3 className="text-left text-5xl mb-3 font-display text-white">
+        <h3 className="text-left text-3xl sm:text-5xl mb-3 font-display text-white ">
           I am Full Stack Developer
         </h3>
-        <h3 className="text-left text-1xl font-display text-white">
+        <h3 className="text-left text-1xl font-display text-white ">
         My name is Aaron, I am a full-stack engineer that has a passion for building software applications! I thoroughly enjoy the process of creating something I had envisioned from the ground up. I love creating applications that challenges me and also allows me to be creative.
         </h3>
 
