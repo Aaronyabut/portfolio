@@ -34,6 +34,7 @@ module.exports = {
         '500': '31.25rem',
         '750': '38.88rem',
         '992': '62rem',
+        'projImg': '37rem'
       },
       height: {
         '500': '31.25rem',
