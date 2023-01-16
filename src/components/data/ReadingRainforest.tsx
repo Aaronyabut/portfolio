@@ -4,9 +4,9 @@ export default function ReadingRainforest () {
 
 
   return (
-    <div className="flex md:flex-row flex-col border-2">
+    <div className="flex md:flex-row flex-col">
       <div id="card"
-        className="rounded-2xl mt-4 h-96 w-fit sm:w-projImg md:w-992  overflow-hidden bg-cover bg-RR shadow-3xl border-2"
+        className="rounded-2xl mt-4 h-96 w-fit sm:w-projImg md:w-992  overflow-hidden bg-cover bg-RR shadow-3xl"
         >
         <div id='info'
           className="relative max-w-full h-500 bg-white transition opacity-90"
