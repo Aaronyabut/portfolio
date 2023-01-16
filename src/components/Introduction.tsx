@@ -8,7 +8,7 @@ export default function Introduction () {
           Hi there, my name is
         </h5>
         <div className="w-fit md:w-140 ">
-          <h1 className="text-6xl sm:text-8xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-indigo-500/100 to-pinkish ">
+          <h1 className="text-5xl sm:text-8xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-indigo-500/100 to-pinkish ">
             Aaron Yabut.
           </h1>
         </div>
