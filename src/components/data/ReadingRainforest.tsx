@@ -4,31 +4,23 @@ export default function ReadingRainforest () {
 
 
   return (
-    <div className="flex flex-row">
+    <div className="flex lg:flex-row flex-col">
       <div id="card"
-        className="
-          rounded-2xl mt-4 h-96  w-992  overflow-hidden bg-cover bg-RR shadow-3xl
-        "
+        className="rounded-2xl mt-4 h-96 w-fit md:w-992  overflow-hidden bg-cover bg-RR shadow-3xl"
         >
         <div id='info'
-          className="
-            relative max-w-full h-500 bg-white transition opacity-90
-          "
+          className="relative max-w-full h-500 bg-white transition opacity-90"
           >
           <h1 id='title'
-            className="
-              m-0 p-6 text-2.5 leading-none decoration-black
-            "
+            className="m-0 p-6 text-2.5 leading-none decoration-black"
             >Reading Rainforest</h1>
           <p id='description'
-            className="
-              m-0 p-desc text-base leading-normal
-            "
+            className="m-0 p-desc text-base leading-normal"
             >A full-stack application that allows users to trade books locally, constructed by a team of six engineers. I designed the wireframe for our application, where I utilized Figma. I made sure that our application had a smooth UI flow within each component. I also developed the nav bar and home page, I made use of the Google Books API to retrieve book data and displayed the books that our top users put up for listing in a carousel. I obtained the top users by sorting their average rating in descending order in the backend.
           </p>
         </div>
       </div>
-      <div className="w-140 relative right-6 h-auto my-auto text-right">
+      <div className="w-fit md:w-140 relative lg:right-6 h-auto my-auto text-right">
         <div className="text-white">
           <p className="h-auto p-2 font-bold text-3xl">
             Reading Rainforest

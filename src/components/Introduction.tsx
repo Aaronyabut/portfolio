@@ -2,8 +2,8 @@ import React from 'react';
 
 export default function Introduction () {
   return (
-    <div className=" flex justify-center mx-14 ">
-      <div className="w-fit md:w-150">
+    <div className=" flex justify-center mx-14">
+      <div className="w-screen md:w-150 px-6">
         <h5 className="text-left text-2xl font-display text-white">
           Hi there, my name is
         </h5>
