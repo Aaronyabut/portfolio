@@ -4,10 +4,10 @@ export default function SystemDesign () {
 
 
   return (
-    <div className="flex flex-row">
-      <div className="w-150 relative left-6 h-auto my-auto text-left">
+    <div className="flex md:flex-row flex-col-reverse ">
+      <div className="w-fit md:w-140 relative md:left-6 h-auto my-auto text-left ">
         <div className="text-white">
-          <p className="h-auto p-2 font-bold text-3xl">
+          <p className="h-auto p-2 font-bold text-3xl ">
             System Design
           </p>
         </div>
@@ -20,9 +20,9 @@ export default function SystemDesign () {
             <li><a id="link" href="https://www.javascript.com/" target="_blank">JavaScript</a></li>
             <li><a id="link" href="https://www.nodejs.org/en/docs/es6/" target="_blank">Node.js</a></li>
             <li><a id="link" href="https://www.reactjs.org/" target="_blank">Express.js</a></li>
-            <li><a id="link" href="https://www.postgresql.org/about/" target="_blank">PostgreSQL</a></li>
           </ul>
           <ul className=" flex flex-row space-x-4 space-x mb-2 px-2 pt-1 text-pinkish">
+            <li><a id="link" href="https://www.postgresql.org/about/" target="_blank" className="">PostgreSQL</a></li>
             <li><a id="link" href="https://www.nginx.com/resources/glossary/nginx/" target="_blank">NGINX</a></li>
             <li><a id="link" href="https://aws.amazon.com/ec2/" target="_blank">AWS EC2</a></li>
           </ul>
@@ -33,7 +33,7 @@ export default function SystemDesign () {
       </div>
       <div id="card"
         className="
-          rounded-2xl mt-4 h-60  w-1200  overflow-hidden bg-cover bg-SDC shadow-3xl
+          rounded-2xl mt-4 h-60  sm:w-projImg md:w-1200  overflow-hidden bg-cover bg-SDC shadow-3xl
         "
         >
         <div id='info'
