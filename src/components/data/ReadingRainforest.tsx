@@ -12,10 +12,10 @@ export default function ReadingRainforest () {
           className="relative max-w-full h-500 bg-white transition opacity-90"
           >
           <h1 id='title'
-            className="m-0 p-6 font-bold sm:font-normal sm:text-2.5 leading-none decoration-black"
+            className="m-0 px-6 pt-4 pb-2 font-bold sm:font-normal sm:text-2.5 leading-none decoration-black"
             >Reading Rainforest</h1>
           <p id='description'
-            className="m-0 p-desc text-sm sm:text-base leading-normal pt-0"
+            className="m-0 p-desc text-xs sm:text-base leading-normal pt-0"
             >A full-stack application that allows users to trade books locally, constructed by a team of six engineers. I designed the wireframe for our application, where I utilized Figma. I made sure that our application had a smooth UI flow within each component. I also developed the nav bar and home page, I made use of the Google Books API to retrieve book data and displayed the books that our top users put up for listing in a carousel. I obtained the top users by sorting their average rating in descending order in the backend.
           </p>
         </div>

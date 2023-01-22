@@ -43,13 +43,13 @@ export default function SystemDesign () {
           >
           <h1 id='title'
             className="
-              m-0 px-6 text-2.5 leading-none decoration-black
+              m-0 px-6 pt-4 pb-2 font-bold sm:font-normal sm:text-2.5 leading-none decoration-black
             "
             >System Design
           </h1>
           <p id='description'
             className="
-              m-0 p-desc text-base leading-normal
+              m-0 p-desc text-xs sm:text-base leading-normal
             "
             >An e-commerce application that contained over 12 million data entries. My goal was to develop an application that can handle 1,000 client requests per second. I built the server using Express and transferred millions of data entries into a postgreSQL database by performing  an ETL process. I then deployed my application into AWS and scaled horizontally with two EC2 T2 micro instances and used Nginx as my load-balancer. I switched to least connection load-balancing, and performed content caching in Nginx, which allowed me to surpass my goal. As a result, I built an application that can handle more than 5,000 client requests per second.
           </p>

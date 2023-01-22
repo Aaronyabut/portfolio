@@ -4,10 +4,10 @@ export default function Atelier () {
 
 
   return (
-    <div className="flex flex-row">
+    <div className="flex md:flex-row flex-col">
       <div id="card"
         className="
-          rounded-2xl mt-4 h-96  w-992  overflow-hidden bg-cover bg-FEC shadow-3xl
+          rounded-2xl mt-4 h-96  sm:w-projImg md:w-992  overflow-hidden bg-cover bg-FEC shadow-3xl
         "
         >
         <div id='info'
@@ -17,18 +17,18 @@ export default function Atelier () {
           >
           <h1 id='title'
             className="
-              m-0 p-6 text-2.5 leading-none decoration-black
+              m-0 px-6 pt-4 pb-2 font-bold sm:font-normal sm:text-2.5 leading-none decoration-black
             "
             >Atelier</h1>
           <p id='description'
             className="
-              m-0 p-desc text-base leading-normal
+              m-0 p-desc text-xs sm:text-base leading-normal
             "
             >A front-end application that consists of several different types of features. Includes a feature that sorts the product reviews by their relevance, newest review, and helpfulness of the review. You are able to filter the reviews based on how the reviewer rated the product, from 1 to 5 stars. When "Add a Review" button is clicked, a modal opens and allows you to leave a review and also attach a picture to the review (Here I utilized cloudinary). A review can't be posted into the database unless all the required forms a filled up. Average star rating is shown in the top-left corner and shades the stars by the closest tenth value. Two reviews are shown initially but when the "More Reviews" button is clicked, two more reviews are presented.
           </p>
         </div>
       </div>
-      <div className="w-140 relative right-6 h-auto my-auto text-right">
+      <div className="w-fit md:w-140 relative md:right-6 h-auto my-auto text-right">
         <div className="text-white">
           <p className="h-auto p-2 font-bold text-3xl">
             Atelier
