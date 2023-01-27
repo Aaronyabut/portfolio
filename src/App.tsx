@@ -24,7 +24,7 @@ export default function App() {
         </div> */}
 
 
-      {/* <Outro /> */}
+      <Outro />
 
     </div>
   )

@@ -13,10 +13,10 @@ export default function Introduction () {
           </h1>
         </div>
         <h3 className="text-left text-3xl sm:text-5xl mb-3 font-display text-white ">
-          I am Full Stack Developer
+          I am Full Stack Developer.
         </h3>
         <h3 className="text-left text-1xl font-display text-white ">
-        My name is Aaron, I am a full-stack engineer that has a passion for building software applications! I thoroughly enjoy the process of creating something I had envisioned from the ground up. I love creating applications that challenges me and also allows me to be creative.
+          I have a passion for building software applications! I thoroughly enjoy the process of creating something I had envisioned from the ground up. I love creating applications that challenges me and also allows me to be creative.
         </h3>
 
         <div className="ml-10 mt-10 w-48 hover:cursor-pointer " >
