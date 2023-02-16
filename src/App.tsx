@@ -12,19 +12,19 @@ export default function App() {
     <div className="h-full text-slate-800 bg-blueish mb-1 static">
       <NavBar />
 
-        <div className="hidden md:block fixed bottom-0 left-4 bg-transparent w-16 h-fit ">
+        <div className="hidden md:block fixed bottom-0 left-4 bg-transparent w-16 h-fit">
           <Socials />
         </div>
         <div className="hidden md:block fixed bottom-0 right-4 bg-transparent w-16 h-fit">
           <Email />
         </div>
-        <div className="grid place-content-center bg-blueish h-screen">
+        <div className="grid place-content-center bg-blueish h-screen border-2">
           <Introduction />
         </div>
-        <div className="grid place-content-center bg-blueish h-3/6" id="aboutMe">
+        <div className="grid place-content-center bg-blueish h-fit py-28 border-2" id="aboutMe">
           <AboutMe />
         </div>
-        <div className="grid place-content-center bg-blueish h-max pt-64 pb-20" id="projects">
+        <div className="grid place-content-center bg-blueish h-max pt-64 pb-20 border-2" id="projects">
           <Projects />
         </div>
         <div className="grid place-content-center bg-blueish h-fit pb-2 md:hidden ">
