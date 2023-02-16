@@ -7,7 +7,7 @@ import FaangMan from './data/FaangMan';
 export default function Projects () {
   return (
     <div className="flex justify-center mx-14">
-      <div className="w-screen lg:w-1100 px-6">
+      <div className="w-screen xl:w-1100 md:px-20 px-6">
         <div className="w-50">
           <h1 className="h-14 text-5xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-indigo-500/100 to-pinkish">
           projects

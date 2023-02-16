@@ -1,17 +1,5 @@
-// import React from 'react'
-
-// export default function Outro () {
-//   return (
-//     <div className="text-center text-blueish">
-//       <div>Built and designed by Aaron Yabut</div>
-//       {/* <a href="" id="link" className="text-pinkish inline-block" target="_blank" rel="noreferrer">Read More</a> */}
-//     </div>
-//   )
-// }
-
 import { Fragment, useRef, useState } from 'react'
 import { Dialog, Transition } from '@headlessui/react'
-import { ExclamationTriangleIcon } from '@heroicons/react/24/outline'
 
 export default function Example() {
   const [open, setOpen] = useState(false)

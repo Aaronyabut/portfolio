@@ -5,7 +5,7 @@ import { Bars3Icon, BellIcon, XMarkIcon } from '@heroicons/react/24/outline'
 const navigation = [
   { name: 'About Me', href: '#aboutMe', current: false, target: "" },
   { name: 'Projects', href: '#projects', current: false, target: "" },
-  { name: 'LinkedIn', href: 'https://www.linkedin.com/in/aaron-yabut/', current: false, target: "_blank" }
+  // { name: 'LinkedIn', href: 'https://www.linkedin.com/in/aaron-yabut/', current: false, target: "_blank" }
 ]
 
 function classNames(...classes:any[]):any {

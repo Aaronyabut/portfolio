@@ -2,15 +2,15 @@ import React from 'react';
 
 export default function AboutMe () {
   return (
-      <div className="flex justify-center " >
-        <div className="w-screen lg:w-160 md:w-screen px-6 md:px-20 lg:px-6  border-pinkish">
+      <div className="flex justify-center">
+        <div className="w-screen lg:w-160 md:w-screen px-6 md:px-20 lg:px-0">
           <div className="w-50">
             <h1 className="h-14 text-5xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-indigo-500/100 to-pinkish">
             about me
             </h1>
           </div>
-          <div className="flex-col flex justify-center items-center md:flex-row  border-pinkish">
-            <div className="md:w-130  mr-10">
+          <div className="flex-col flex justify-center items-center md:flex-row">
+            <div className="md:w-130 mr-10">
               <h3 className="text-left text-1xl font-display text-white">
                 I am graduate student at&nbsp;
                 <a href="https://www.csulb.edu/about-csulb/our-mission-vision-values/" id="link" className="text-pinkish inline-block" target="_blank" rel="noreferrer">California State University of Long Beach</a>

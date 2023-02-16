@@ -23,7 +23,7 @@ export default function App() {
         <div className="grid place-content-center bg-blueish h-3/6" id="aboutMe">
           <AboutMe />
         </div>
-        <div className="grid place-content-center bg-blueish h-max py-64 border-2" id="projects">
+        <div className="grid place-content-center bg-blueish h-max py-64" id="projects">
           <Projects />
         </div>
 
