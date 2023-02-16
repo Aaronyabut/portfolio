@@ -10,7 +10,7 @@ export default function AboutMe () {
             </h1>
           </div>
           <div className="flex-col flex justify-center items-center md:flex-row">
-            <div className="md:w-130 mr-10">
+            <div className="grid place-items-center md:w-130 mr-10">
               <h3 className="text-left text-1xl font-display text-white">
                 I am graduate student at&nbsp;
                 <a href="https://www.csulb.edu/about-csulb/our-mission-vision-values/" id="link" className="text-pinkish inline-block" target="_blank" rel="noreferrer">California State University of Long Beach</a>
@@ -23,7 +23,7 @@ export default function AboutMe () {
                 , an advance software engineering immersive. I completed their 12-week program where I learned how to create full stack applications in an agile enviroment. Here I learned the importance of team work and communication.
               </h3>
             </div>
-            <div className=" w-96 pt-6 md:pt-0 ">
+            <div className="grid place-items-center sm:w-96 w-fit pt-6 md:pt-0">
               <img
                 src="https://raw.githubusercontent.com/Aaronyabut/portfolio/main/itME.jpg"
                 className="
