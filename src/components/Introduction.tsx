@@ -21,7 +21,7 @@ export default function Introduction () {
 
         <div className="ml-10 mt-10 w-48 hover:cursor-pointer " >
           <div className="relative group">
-            <a href="https://github.com/Aaronyabut/portfolio/raw/main/resume.pdf" target="_blank">
+            <a href="https://drive.google.com/file/d/1hxXs1G8wJ7dDRQoyDRTkxQz0SRqPGSq0/view?usp=share_link" target="_blank">
               <div className="absolute -inset-3 bg-gradient-to-r from-indigo-500/100 to-pinkish rounded-lg blur opacity-25 animate-pulse group-hover:opacity-100 transition duration-1000 group-hover:duration-200"></div>
               <div className="flex justify-center relative px-7 py-6 bg-blueish ring-1 ring-gray-900/5 rounded-lg leading-none flex items-top justify-start space-x-6">
                 <div className="flex justify-center">

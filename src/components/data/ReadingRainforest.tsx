@@ -20,7 +20,7 @@ export default function ReadingRainforest () {
           </p>
         </div>
       </div>
-      <div className="w-fit md:w-140 relative md:right-6 h-auto my-auto text-right ">
+      <div className="w-fit md:w-140 relative md:right-6 h-auto my-auto text-right">
         <div className="text-white">
           <p className="h-auto p-2 font-bold text-3xl">
             Reading Rainforest

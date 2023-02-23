@@ -11,20 +11,14 @@ export default function Atelier () {
         "
         >
         <div id='info'
-          className="
-            relative max-w-full h-500 bg-white transition opacity-90
-          "
+          className="relative max-w-full h-500 bg-white transition opacity-90"
           >
           <h1 id='title'
-            className="
-              m-0 px-6 pt-4 pb-2 font-bold sm:font-normal sm:text-2.5 leading-none decoration-black
-            "
-            >Atelier</h1>
+            className="m-0 px-6 pt-4 pb-2 font-bold sm:font-normal sm:text-2.5 leading-none decoration-black">
+            Atelier</h1>
           <p id='description'
-            className="
-              m-0 p-desc text-xs sm:text-base leading-normal
-            "
-            >A front-end application that consists of several different types of features. Includes a feature that sorts the product reviews by their relevance, newest review, and helpfulness of the review. You are able to filter the reviews based on how the reviewer rated the product, from 1 to 5 stars. When "Add a Review" button is clicked, a modal opens and allows you to leave a review and also attach a picture to the review (Here I utilized cloudinary). A review can't be posted into the database unless all the required forms a filled up. Average star rating is shown in the top-left corner and shades the stars by the closest tenth value. Two reviews are shown initially but when the "More Reviews" button is clicked, two more reviews are presented.
+            className="m-0 p-desc text-xs sm:text-base leading-normal">
+            A front-end application that consists of several different types of features. Includes a feature that sorts the product reviews by their relevance, newest review, and helpfulness of the review. You are able to filter the reviews based on how the reviewer rated the product, from 1 to 5 stars. When "Add a Review" button is clicked, a modal opens and allows you to leave a review and also attach a picture to the review (Here I utilized cloudinary). A review can't be posted into the database unless all the required forms a filled up. Average star rating is shown in the top-left corner and shades the stars by the closest tenth value. Two reviews are shown initially but when the "More Reviews" button is clicked, two more reviews are presented.
           </p>
         </div>
       </div>
@@ -36,7 +30,7 @@ export default function Atelier () {
         </div>
         <div className=" text-white bg-purpleish h-auto my-2 rounded-xl p-2 shadow-3xl">
           <p className="h-auto p-2 ">
-          A front-end development of a ratings and reviews section of an e-commerce product page
+            A front-end development of a ratings and reviews section of an e-commerce product page
           </p>
         </div>
           <ul className=" flex flex-row-reverse space-x-4 space-x-reverse mt-2 px-2 pt-2 text-pinkish">
