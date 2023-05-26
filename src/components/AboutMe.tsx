@@ -12,7 +12,7 @@ export default function AboutMe () {
           <div className="flex-col flex justify-center items-center md:flex-row">
             <div className="grid place-items-center md:w-130 mr-10">
               <h3 className="text-left text-1xl font-display text-white">
-                I am graduate student at&nbsp;
+                I'm a graduate student at&nbsp;
                 <a href="https://www.csulb.edu/about-csulb/our-mission-vision-values/" id="link" className="text-pinkish inline-block" target="_blank" rel="noreferrer">California State University of Long Beach</a>
                 , with a B.S. in Kinesiology and Cum Laude in 2021. I was previously pursuing to become a Physical Therapist but during my last in year college I discovered software development. After writing my first line of code, I immediately fell in love! Software development suited my personality a lot more, I love the critical thinking aspect and it also allowed me to express my creativity side. I was self teaching myself how to code during my last year of college and after graduating, I took coding more serious.
               </h3>
