@@ -14,13 +14,13 @@ export default function AboutMe () {
               <h3 className="text-left text-1xl font-display text-white">
                 I'm a graduate student at&nbsp;
                 <a href="https://www.csulb.edu/about-csulb/our-mission-vision-values/" id="link" className="text-pinkish inline-block" target="_blank" rel="noreferrer">California State University of Long Beach</a>
-                , with a B.S. in Kinesiology and Cum Laude in 2021. I was previously pursuing to become a Physical Therapist but during my last in year college I discovered software development. After writing my first line of code, I immediately fell in love! Software development suited my personality a lot more, I love the critical thinking aspect and it also allowed me to express my creativity side. I was self teaching myself how to code during my last year of college and after graduating, I took coding more serious.
+                , with a B.S. in Kinesiology. I was previously pursuing a career in Physical Therapy, but during my last year of college I discovered software development. After writing a few lines of code, it immediately caught my interest! Software development suited my personality a lot more, I love the critical thinking aspect and it also allowed me to express my creativity. I began to teach myself how to code during my last year of college and after graduating, I allocated most of my time into coding.
               </h3>
               <>&nbsp;</>
               <h3 className="text-left text-1xl font-display text-white">
                 Six months after graduating, I enrolled into&nbsp;
                 <a href="https://www.hackreactor.com/" id="link" className="text-pinkish inline-block" target="_blank" rel="noreferrer">Hack Reactor</a>
-                , an advance software engineering immersive. I completed their 12-week program where I learned how to create full stack applications in an agile enviroment. Here I learned the importance of team work and communication.
+                , an advance software engineering immersive. I completed their 12-week program where I learned how to create full-stack applications in an agile enviroment. Here I also learned the importance of team work and communication.
               </h3>
             </div>
             <div className="grid place-items-center sm:w-96 w-fit pt-6 md:pt-0">
