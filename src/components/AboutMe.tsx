@@ -16,17 +16,17 @@ export default function AboutMe () {
                 <a href="https://www.csulb.edu/about-csulb/our-mission-vision-values/" id="link" className="text-pinkish inline-block" target="_blank" rel="noreferrer">California State University of Long Beach</a>
                 , holding a B.S. in Kinesiology. Originally, my path was set towards a career in Physical Therapy, but everything changed during my final year of college when I stumbled upon the world of software development. With just a few lines of code, I was immediately captivated by its allure. The logical thinking required and the opportunity to unleash my creativity resonated with me on a deep level.
               </h3>
-              {/* <>&nbsp;</> */}
+              <>&nbsp;</>
               <h3 className="text-left text-1xl font-display text-white">
                 Motivated by this newfound passion, I embarked on a self-guided journey to teach myself how to code. Immersed in the world of programming, I devoted most of my time to honing my skills after graduating from university.
               </h3>
-              {/* <>&nbsp;</> */}
+              <>&nbsp;</>
               <h3 className="text-left text-1xl font-display text-white">
                 To further solidify my knowledge and expertise, I enrolled into&nbsp;
                 <a href="https://www.hackreactor.com/" id="link" className="text-pinkish inline-block" target="_blank" rel="noreferrer">Hack Reactor</a>
                 , a renowned institution specializing in advanced software engineering. Their intensive 12-week program equipped me with the tools to create full-stack applications in an agile environment. It was during this transformative experience that I discovered the significance of effective teamwork and communication in the realm of software development.
               </h3>
-              {/* <>&nbsp;</> */}
+              <>&nbsp;</>
               <h3 className="text-left text-1xl font-display text-white">
                 Join me on this exciting journey as I continue to expand my knowledge, solve complex problems, and create innovative solutions.
               </h3>
