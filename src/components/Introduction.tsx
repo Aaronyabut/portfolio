@@ -18,6 +18,9 @@ export default function Introduction () {
         <h3 className="text-left text-1xl font-display text-white ">
           I have a passion for building software applications! I thoroughly enjoy the process of creating something I had envisioned from the ground up. I love creating applications that challenges me and also allows me to be creative.
         </h3>
+        <h3 className="text-left text-1xl font-display text-white ">
+          I'm currently a Web Developer at <a href="https://www.roberthalf.com/about-robert-half" id="link" className="text-pinkish inline-block" target="_blank" rel="noreferrer">Robert Half</a>, I'm in their front-end development team and involved in rebuilding their US and Canadian site.
+        </h3>
 
         <div className="ml-10 mt-10 w-48 hover:cursor-pointer " >
           <div className="relative group">
